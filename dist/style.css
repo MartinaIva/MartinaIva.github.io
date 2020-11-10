@@ -1,0 +1,72 @@
+*{outline: solid 1px cyan}
+
+.head{
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-color: #222 grey;
+  font-family: 'Abril Fatface',cursive;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  width: 100%;
+  height: 235px; 
+}
+
+.maintext{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  width: 75%;
+  font-size: 13px;
+}
+
+img{
+  width: 100%;
+}
+
+.titulek{
+  align-self: center;
+  margin-bottom: 30px;
+  margin-left: -70px;
+}
+
+#anakin{
+  font-size: 43px;
+  line-height: 45px; 
+}
+
+.quote{
+  align-items: center;
+  background: grey;
+  font-family: 'Abril Fatface', cursive;
+  font-color: #222 grey;
+  font-size: 30px
+  quotes: "";
+}
+
+/* citoslovcia */
+.quote::before {
+    content: open-quote;
+    font-size: 30px;
+  }
+
+.quote::after {
+  content: close-quote;
+  font-size: 30px;
+}
+/* musi byt stale before a after*/
+  
+p, li{
+font-family: 'Josefin Sans', sans-serif;
+font-color: #222 grey;
+}
+
+ul{
+  list-style-type: square;
+}
+
+.nadpis, .design{
+font-family: 'Merriweather', serif;
+}
